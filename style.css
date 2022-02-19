@@ -1,1 +1,19 @@
-/*  Add your styling here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+background-image: url("https://png.pngtree.com/png-vector/20200531/ourlarge/pngtree-cupcake-illustration-in-icon-drawn-style-png-image_2216376.jpg");
+height: 400px;
+background-repeat: no-repeat;
+background-color:#f5f5f5;
+background-size: contain;}
+
+h2{
+    
+}
+
+.container{
+    background-image: url("")
