@@ -44,13 +44,17 @@ h1{
     height: 250px;
     margin-top: 30px;
 }
-.grande {
+.cakes {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
     width: 600px;
     gap: 5px;
+    margin: 30px;
   }
-  img {
-    width: 300px;
-  }
+  @media (max-width: 500px){
+    .pastel{
+        margin-left: 0%;
+    }
+
+  
