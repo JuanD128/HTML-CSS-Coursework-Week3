@@ -57,6 +57,19 @@ h1{
 .margin_bottom{
     margin-bottom: 5px;
 }
+footer{
+    background-color: rgb(192, 33, 152);
+}
+.menu_final{
+    padding: 30px;
+    list-style: none;
+    color: azure;
+}
+.closing{
+    padding-bottom: 10px;
+    color: azure;
+    text-align: center;
+}
   @media (min-width: 500px){
     .pastel{
         margin-right: 30px;
@@ -78,19 +91,27 @@ h1{
 .menu_desktop ul{
     display: flex;
     justify-content: flex-end;
-    background-color: blueviolet;
+    background-color: rgb(192, 33, 152);
 
 }
 .menu_desktop li{
     margin: 20px;
     list-style: none;
-    background-color: beige;
+    background-color: rgb(236, 154, 214);
 }
 .cakes img{
     width: 24%;
 }
 .margin_bottom{
     margin: 0;
+}
+.menu_final{
+    display: flex;
+    justify-content: center;
+}
+.menu_final li{
+    margin: 20px;
+    background-color:  rgb(211, 109, 165) ;
 }
 
   }
