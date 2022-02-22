@@ -24,8 +24,9 @@ padding: 40px;
     height: 50px;
     background-color: beige;
     width: 50px;
-    
-
+}
+.menu_desktop{
+    display: none;
 }
 
 h2{
@@ -45,16 +46,32 @@ h1{
     margin-top: 30px;
 }
 .cakes {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
-    width: 600px;
-    gap: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
     margin: 30px;
   }
-  @media (max-width: 500px){
+  @media (min-width: 500px){
     .pastel{
         margin-left: 0%;
-    }
 
+    }
+    .menu_desktop{
+        display: block;
+        width: 100%;
+    }
+.menu_desktop ul{
+    display: flex;
+    justify-content: flex-end;
+    background-color: blueviolet;
+
+}
+.menu_desktop li{
+    margin: 20px;
+    list-style: none;
+    background-color: beige;
+}
+  }
+  
   
